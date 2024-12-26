@@ -1,0 +1,12 @@
+// Content
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 70vh;
+
+	@include media-breakpoint-down(md) {
+		padding: var(--spacing-xl) 0;
+	}
+}

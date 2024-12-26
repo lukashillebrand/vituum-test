@@ -1,0 +1,33 @@
+<html lang="de">
+    {% include '../partials/head.twig' %}
+    <body>
+        {% include '../partials/header.twig' %}
+        <div class="container mb-3 py-3">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <h1 class="h3 py-3 mb-3">{{ title }}</h1>
+                    <div class="lead mb-3">
+                        {{ text }}
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    {% include '../partials/card-etr.twig' %}
+                </div>
+            </div>
+                    
+            <div class="row">
+                {% for topic in topics %}
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <a href="{{ topic.url }}.html" class="card card-topics card-topics-link h-100">
+                        <div class="card-body">
+                            <i class="fa-solid fa-{{ topic.icon }} fa-2x"></i>
+                            <h5 class="card-title m-0">{{ topic.name }}</h5>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% include '../partials/footer.twig' %}
+    </body>
+</html>

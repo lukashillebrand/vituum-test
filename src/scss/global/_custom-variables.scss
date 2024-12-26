@@ -1,0 +1,129 @@
+// Custom Variables
+$primary: #cd0e16;
+$secondary: #f5f5f5;
+$tertiary: #616775;
+$link-color: #345D8E;
+$etr-color: #333399;
+
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"tertiary": $tertiary,
+	"etr": $etr-color,
+);
+
+:root {
+	--primary: $primsary;
+	--secondary: $secondary;
+	--tertiary: $tertiary;
+
+	--spacer: 8px;
+	--spacer-s: 8px;
+	--spacer-m: 16px;
+	--spacer-l: 24px;
+	--spacer-xl: 32px;
+	--spacer-xxl: 64px;
+
+	--spacing-s: 8px;
+	--spacing-m: 16px;
+	--spacing-l: 24px;
+	--spacing-xl: 32px;
+	--spacing-xxl: 64px;
+
+	--stepper-circle-size: clamp(2.5rem, 5vw, 3rem);
+	--stepper-spacing: clamp(0.5rem, 2vw, 0.5rem);
+
+	--stepper-horizontal-circle-size: 6rem;
+	--stepper-horizontal-spacing: clamp(0.5rem, 2vw, 0.5rem);
+
+	counter-reset: step;
+}
+
+$gradient: linear-gradient(0deg, #f8f9fa 0%, #e9ddff 100%);
+
+// Typography
+$font-family-sans-serif: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// Links
+$link-color: $primary;
+$link-shade-percentage: 30%;
+$link-hover-color: $secondary;
+$link-hover-active: $primary;
+
+// Forms
+$form-label-color: $primary;
+$input-border-color: $secondary;
+$input-focus-border-color: $primary;
+$form-select-border-color: $secondary;
+
+// Accordion
+$accordion-button-active-bg: $secondary;
+$accordion-button-active-color: $white;
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$white}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+
+// Nav
+$nav-link-color: $dark;
+$nav-link-color-hover: $primary;
+$nav-pills-link-active-bg: $secondary;
+
+// Progress
+$progress-height:                   .5rem;
+$progress-font-size:                $font-size-base * .75;
+$progress-bg:                       var(--#{$prefix}secondary-bg);
+$progress-border-radius:            var(--#{$prefix}border-radius);
+$progress-box-shadow:               var(--#{$prefix}box-shadow-inset);
+$progress-bar-color:                $white;
+$progress-bar-bg:                   $primary;
+$progress-bar-animation-timing:     1s linear infinite;
+$progress-bar-transition:           width .6s ease;
+
+// Badges
+$badge-font-size:                   .95em;
+$badge-font-weight:                 $font-weight-normal;
+$badge-color:                       $white;
+$badge-padding-y:                   .35em;
+$badge-padding-x:                   .65em;
+$badge-border-radius:               var(--#{$prefix}border-radius);
+
+// Off-Canvas
+//$offcanvas-padding-y:               $modal-inner-padding;
+//$offcanvas-padding-x:               $modal-inner-padding;
+//$offcanvas-horizontal-width:        400px;
+$offcanvas-vertical-height:           40vh;
+//$offcanvas-transition-duration:     .3s;
+//$offcanvas-border-color:            $modal-content-border-color;
+//$offcanvas-border-width:            $modal-content-border-width;
+//$offcanvas-title-line-height:       $modal-title-line-height;
+//$offcanvas-bg-color:                var(--#{$prefix}body-bg);
+//$offcanvas-color:                   var(--#{$prefix}body-color);
+//$offcanvas-box-shadow:              $modal-content-box-shadow-xs;
+//$offcanvas-backdrop-bg:             $modal-backdrop-bg;
+//$offcanvas-backdrop-opacity:        $modal-backdrop-opacity;
+
+// List group
+//$list-group-color:                  var(--#{$prefix}body-color);
+//$list-group-bg:                     var(--#{$prefix}body-bg);
+$list-group-border-color:           $tertiary
+//$list-group-border-width:           var(--#{$prefix}border-width);
+//$list-group-border-radius:          var(--#{$prefix}border-radius);
+//
+//$list-group-item-padding-y:         $spacer * .5;
+//$list-group-item-padding-x:         $spacer;
+//// fusv-disable
+//$list-group-item-bg-scale:          -80%; // Deprecated in v5.3.0
+//$list-group-item-color-scale:       40%; // Deprecated in v5.3.0
+//// fusv-enable
+//
+//$list-group-hover-bg:               var(--#{$prefix}tertiary-bg);
+//$list-group-active-color:           $component-active-color;
+//$list-group-active-bg:              $component-active-bg;
+//$list-group-active-border-color:    $list-group-active-bg;
+//
+//$list-group-disabled-color:         var(--#{$prefix}secondary-color);
+//$list-group-disabled-bg:            $list-group-bg;
+//
+//$list-group-action-color:           var(--#{$prefix}secondary-color);
+//$list-group-action-hover-color:     var(--#{$prefix}emphasis-color);
+//
+//$list-group-action-active-color:    var(--#{$prefix}body-color);
+//$list-group-action-active-bg:       var(--#{$prefix}secondary-bg);

@@ -1,0 +1,61 @@
+// Stepper
+
+.stepper {
+	margin-top: $spacer * 3;
+
+	.stepper-index {
+		font-size: $lead-font-size;
+		margin-top: $spacer;
+		margin-bottom: $spacer * 3;
+		padding: $spacer * 1.5;
+		border: 3px solid $primary;
+		
+		&__item {
+			border-bottom: 1px solid $primary;
+			display: flex;
+			padding-top: $spacer;
+			padding-bottom: $spacer;
+			gap: $spacer;
+
+			&:first-child {
+				padding-top: 0;
+			}
+			
+			&:last-child {
+				padding-bottom: 0;
+				border-bottom: none;
+			}
+		}	
+	}
+}
+
+.stepper-item {
+	position: relative;
+	margin-bottom: $spacer * 3;
+	font-size: $lead-font-size;
+	padding-bottom: $spacer * 3;
+	border-bottom: 1px solid $gray-300;
+	
+	&__content {
+		display: flow-root;
+		padding: $spacer * 1.5;
+	}
+
+	&__to-top {
+		position: absolute;
+		bottom: $spacer * 1.5;
+		right: $spacer * 1.5;
+		padding: $spacer / 3;
+		border: 3px solid $link-color;
+		color: $link-color;
+		border-radius: 100%;
+		
+		&:hover,
+		&:focus {
+			transition: $btn-transition;
+			background-color: $primary;
+			border: 3px solid $primary;
+			color: $white;
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"template": "layouts/main.twig",
+	"topicsSidebar": [
+		{
+			"id": 1,
+			"name": "Arbeit und Beschäftigung",
+			"text": "",
+			"icon": "school",
+			"url": "topic-1"
+		},
+		{
+			"id": 2,
+			"name": "Lernen und Bildung",
+			"text": "",
+			"icon": "users",
+			"url": "topic-2"
+		},
+		{
+			"id": 3,
+			"name": "Wohnen",
+			"text": "",
+			"icon": "users",
+			"url": "topic-3"
+		},
+		{
+			"id": 4,
+			"name": "Gesundheit",
+			"text": "",
+			"icon": "users",
+			"url": "topic-4"
+		},
+		{
+			"id": 5,
+			"name": "Mobilität",
+			"text": "",
+			"icon": "users",
+			"url": "topic-5"
+		},
+		{
+			"id": 6,
+			"name": "Gemeinschaft und Soziales",
+			"text": "",
+			"icon": "users",
+			"url": "topic-6"
+		},
+		{
+			"id": 7,
+			"name": "Freizeit und Natur",
+			"text": "",
+			"icon": "users",
+			"url": "topic-7"
+		},
+		{
+			"id": 8,
+			"name": "Kultur",
+			"text": "",
+			"icon": "users",
+			"url": "topic-8"
+		},
+		{
+			"id": 9,
+			"name": "Sprachen",
+			"text": "",
+			"icon": "users",
+			"url": "topic-9"
+		},
+		{
+			"id": 10,
+			"name": "Schutz und Sicherheit",
+			"text": "",
+			"icon": "users",
+			"url": "topic-10"
+		},
+		{
+			"id": 11,
+			"name": "Land Südtirol",
+			"text": "",
+			"icon": "users",
+			"url": "topic-11"
+		},
+		{
+			"id": 12,
+			"name": "Europa",
+			"text": "",
+			"icon": "users",
+			"url": "topic-12"
+		}						
+	]
+}

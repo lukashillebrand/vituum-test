@@ -1,0 +1,111 @@
+// Custom
+// @import "global/_custom-variables.scss";
+$primary: #cd0e16;
+$secondary: #f5f5f5;
+$tertiary: #616775;
+$link-color: #3344dd;
+$etr-color: #333399;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "etr": $etr-color,
+);
+
+// Vendor
+@import "bootstrap/scss/bootstrap";
+
+// Global
+@import "global/_global.scss";
+
+// Partials
+@import "partials/_header.scss";
+@import "partials/_stepper.scss";
+
+// Components
+.sidebar-topics {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacer;
+    gap: $spacer / 3;
+    padding-top: $spacer * 1;
+
+    h3 {
+        margin: 0;
+    }
+
+    a {
+        font-size: $h4-font-size;
+        color: $black;
+
+        &:hover,
+        &:focus {
+            transition: $btn-transition;
+            color: $primary;
+        }
+    }
+}
+
+.card-etr {
+    margin-top: $spacer;
+    margin-bottom: $spacer * 3;
+    padding: $spacer;
+    border: 3px solid $etr-color;
+    
+    .card-title {
+        color: $etr-color;
+    }
+    
+    img {
+        border-radius: $badge-border-radius;
+    }
+}
+
+.card-topics-grid  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: $spacer;
+}
+
+.card-topics {
+    border: 3px solid $gray-300;
+    padding: $spacer;
+    
+    &:hover,
+    &:focus {
+        transition: $btn-transition;
+        background-color: $primary;
+        color: $white;
+    }
+
+    &-link {
+        text-decoration: none;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: $spacer;
+        text-align: center;
+        
+        i {
+            margin-bottom: $spacer / 3;
+        }
+    }
+}
+
+.card-topic-line {
+    border: 3px solid $gray-300;
+    
+    &:hover,
+    &:focus {
+        color: $white;
+        transition: $btn-transition;
+        background-color: $white;
+        color: $primary;
+        border-color: $primary;
+    }
+}

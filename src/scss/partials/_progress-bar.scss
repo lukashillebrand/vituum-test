@@ -1,0 +1,46 @@
+// Progress Bar
+
+.progress-title {
+    margin-bottom: 0;
+    font-size: $font-size-sm;
+    text-align: center;
+    color: $secondary;
+}
+
+.progress-outer {
+    background-color: $tertiary;
+    padding: 8px 60px 8px 8px;
+    // border: 1px solid $secondary;
+    border-radius: 45px;
+    margin-bottom: calc($spacer / 2);
+    position: relative;
+}
+
+.progress {
+    background-color: $white;
+    border-radius: $spacer;
+    margin: 0;
+}
+
+.progress .progress-bar {
+    border-radius: $spacer;
+    animation: animate-positive 2s infinite;
+}
+
+.progress .progress-value {
+    position: absolute;
+    top: 3px;
+    right: $spacer;
+    font-weight: $font-weight-bold;
+    color: $primary;
+}
+
+@keyframes animate-positive {
+    0% {
+        width: var(--percentage);
+    }
+
+    100% {
+        width: var(--percentage);
+    }
+}

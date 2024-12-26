@@ -1,0 +1,35 @@
+// Jumbotron
+
+.jumbotron {
+
+    &__list {
+        margin-bottom: $spacer * 3
+    }
+
+    .list-group {
+        display: flex;
+        flex-direction: row;
+        gap: $spacer * 3;
+        max-width: 1200px;
+        text-align: left;
+        margin: 0;
+
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        word-break: break-word;
+
+        >  i {
+            display: block;
+            margin-bottom: $spacer;
+            text-align: center;
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Arbeit finden in Südtirol.",
+	"text": "<img src='https://via.placeholder.com/300x300' class='img-fluid img-thumbnail float-end rounded' width='300' height='300' alt=''><p>Arbeit ist wichtig.<br>Die Menschen können mit Arbeit nämlich:<ul><li>Geld verdienen.</li><li>Und etwas Sinnvolles machen.</li></ul>Aber <em>nicht</em> alle Menschen finden leicht eine Arbeit.<br>Deshalb gibt es in Südtirol eine „Job∙börse“.<br>Die „Job∙börse“ ist eine Internet∙seite:<br>Auf dieser Internet∙seite sind viele freie Arbeits∙stellen in Südtirol.<br>So können Menschen eine Arbeit finden.<br><a href=''>Die Internet∙seite von der „Job∙börse“ finden Sie hier</a>.<br>Finden die Menschen <strong>keine Arbeit?</strong><br>Dann können diese Menschen Unterstützung von den Fach∙personen<br>in einem Arbeits∙vermittlungs∙zentrum bekommen.</p><p>Haben die Menschen lange Zeit keine Arbeit?<br>Dann können diese Menschen um ein Arbeitslosen∙geld ansuchen.<br>Mit dem Arbeitslosen·geld bekommen die Menschen für einige Monate Geld zum Leben.<br></p><a href=''>Mehr Informationen zum Arbeitslosen∙geld in schwerer Sprache finden Sie hier.</a>",
+	"stepper": [
+		{
+			"id": 1,
+			"name": "Das können Sie auf dieser Seite lesen:",
+			"text": "",
+			"icon": "",
+			"url": "",
+			"sections": [
+				{
+					"id": 1,
+					"name":"Was ist ein Arbeits∙vermittlungs∙zentrum?",
+					"text": "test 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Maecenas pellentesque ultricies felis, et laoreet est fringilla in. Nulla luctus elit et erat rutrum congue. Phasellus vitae ultricies nibh. Suspendisse suscipit molestie facilisis. Donec finibus faucibus dui, ut posuere velit scelerisque eget. Aliquam erat volutpat. Vivamus maximus metus hendrerit facilisis venenatis. Integer mollis convallis turpis, at vestibulum massa euismod sit amet. Nulla et velit nec sem consequat tempus. Fusce consectetur ipsum turpis, eget tincidunt neque tristique a. Donec dictum sem libero, vitae commodo orci volutpat et.",
+					"icon": "",
+					"url": ""
+				},
+				{
+					"id": 2,
+					"name":"Welche Unterstützung bekommen Menschen in einem Arbeits·vermittlungs·zentrum?",
+					"text": "test 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Maecenas pellentesque ultricies felis, et laoreet est fringilla in. Nulla luctus elit et erat rutrum congue. Phasellus vitae ultricies nibh. Suspendisse suscipit molestie facilisis. Donec finibus faucibus dui, ut posuere velit scelerisque eget. Aliquam erat volutpat. Vivamus maximus metus hendrerit facilisis venenatis. Integer mollis convallis turpis, at vestibulum massa euismod sit amet. Nulla et velit nec sem consequat tempus. Fusce consectetur ipsum turpis, eget tincidunt neque tristique a. Donec dictum sem libero, vitae commodo orci volutpat et. Maecenas pellentesque ultricies felis, et laoreet est fringilla in. Nulla luctus elit et erat rutrum congue. Phasellus vitae ultricies nibh. Suspendisse suscipit molestie facilisis. Donec finibus faucibus dui, ut posuere velit scelerisque eget. Aliquam erat volutpat. Vivamus maximus metus hendrerit facilisis venenatis. Integer mollis convallis turpis, at vestibulum massa euismod sit amet. Nulla et velit nec sem consequat tempus. Fusce consectetur ipsum turpis, eget tincidunt neque tristique a. Donec dictum sem libero, vitae commodo orci volutpat et.",
+					"icon": "",
+					"url": ""
+				},
+				{
+					"id": 3,
+					"name":"Stepper Section 3",
+					"text": "test 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Maecenas pellentesque ultricies felis, et laoreet est fringilla in. Nulla luctus elit et erat rutrum congue. Phasellus vitae ultricies nibh. Suspendisse suscipit molestie facilisis. Donec finibus faucibus dui, ut posuere velit scelerisque eget. Aliquam erat volutpat. Vivamus maximus metus hendrerit facilisis venenatis. Integer mollis convallis turpis, at vestibulum massa euismod sit amet. Nulla et velit nec sem consequat tempus. Fusce consectetur ipsum turpis, eget tincidunt neque tristique a. Donec dictum sem libero, vitae commodo orci volutpat et. Maecenas pellentesque ultricies felis, et laoreet est fringilla in. Nulla luctus elit et erat rutrum congue. Phasellus vitae ultricies nibh. Suspendisse suscipit molestie facilisis. Donec finibus faucibus dui, ut posuere velit scelerisque eget. Aliquam erat volutpat. Vivamus maximus metus hendrerit facilisis venenatis. Integer mollis convallis turpis, at vestibulum massa euismod sit amet. Nulla et velit nec sem consequat tempus. Fusce consectetur ipsum turpis, eget tincidunt neque tristique a. Donec dictum sem libero, vitae commodo orci volutpat et. Maecenas pellentesque ultricies felis, et laoreet est fringilla in. Nulla luctus elit et erat rutrum congue. Phasellus vitae ultricies nibh. Suspendisse suscipit molestie facilisis. Donec finibus faucibus dui, ut posuere velit scelerisque eget. Aliquam erat volutpat. Vivamus maximus metus hendrerit facilisis venenatis. Integer mollis convallis turpis, at vestibulum massa euismod sit amet. Nulla et velit nec sem consequat tempus. Fusce consectetur ipsum turpis, eget tincidunt neque tristique a. Donec dictum sem libero, vitae commodo orci volutpat et.",
+					"icon": "",
+					"url": ""
+				}				
+			]
+		}
+	]  
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  	{{> head }}	
+	  <body>
+		{{> header-minimal }}
+		<div class="container text-center">
+			<div>
+				<h1>{{title}}</h1>
+				<p>
+					{{&text}}
+					<br>
+					{{&text2}}
+				</p>
+				{{> stepper }}
+				{{> register }}
+			</div>
+		</div>
+	{{> footer }}
+  </body>
+</html>

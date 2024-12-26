@@ -1,0 +1,27 @@
+{% for step in stepper %}
+<div class="stepper" id="stepperIndex">
+	<h3>{{ step.name }}</h3>
+	<ol class="stepper-index rounded">
+		{% for section in step.sections %}
+			<a href="#{{ section.id }}" class="stepper-index__item">
+				<li>{{ section.name }}</li>
+			</a>
+		{% endfor %}
+	</ol>
+</div>
+{% endfor %}
+
+{% for step in stepper %}
+	{% for item in step.sections %}
+		<div class="stepper-item" id="{{ item.id }}">
+			<div class="stepper-item__content">
+			<h3>{{ item.name }}</h3>
+				{{ item.text }}
+			</div>
+			<a href="#stepperIndex" class="stepper-item__to-top">
+				<span class="sr-only">Zum Index</span>
+				<i class="fa-solid fa-chevron-up"></i>
+			</a>
+		</div>
+	{% endfor %}
+{% endfor %}

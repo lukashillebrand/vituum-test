@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  	{{> head }}	
+	  <body>
+		{{> header-minimal }}
+		<div class="container text-center">
+			<div>
+				<h1>{{title}}</h1>
+				<p>{{text}}</p>
+				{{> stepper }}
+				<div class="row row-cols-1 row-cols-md-4 text-center pt-4">
+					{{> abo-item aboname="Online Probeabo" }}
+					{{> abo-item aboname="Online Abo" }}
+					{{> abo-item aboname="Post Abo" }}
+					{{> abo-item aboname="Abhol Abo" }}
+				</div>
+			</div>
+		</div>
+	{{> faq }}
+	{{> footer }}
+  </body>
+</html>

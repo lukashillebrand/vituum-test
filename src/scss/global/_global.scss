@@ -1,0 +1,18 @@
+// Global
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul, ol {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.text-indent {
+	text-indent: 10% each-line;
+}
+
+*:target {
+	background-color: $gray-100;
+}

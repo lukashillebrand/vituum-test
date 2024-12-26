@@ -1,0 +1,104 @@
+// Jobquiz
+
+.jobquiz {
+	padding: var(--spacing-xxl) 0;
+
+	.card-grid {
+		display: grid;
+		gap: var(--spacing-l);
+		grid-template-columns: repeat(1, 1fr);
+
+		@include media-breakpoint-up(sm) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@include media-breakpoint-up(xl) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+
+	.card {
+		list-style: none;
+		position: relative;
+		background-color: transparent;
+		border: none;
+
+		&:before {
+			content: '';
+			display: block;
+			padding-bottom: 150%;
+			width: 100%;
+
+			@include media-breakpoint-down(sm) {
+				padding-bottom: 100%;
+			}
+
+			@include media-breakpoint-only(lg) {
+				padding-bottom: 100%;
+			}
+		}
+	}
+
+	.card__background {
+		position: absolute;
+		inset: 0 0 0 0;
+		background-color: $tertiary;
+		background-repeat: no-repeat;
+		background-size: 90%;
+		background-position: top center;
+		border-radius: var(--spacing-l);
+		// filter: brightness(0.75) saturate(1.2) contrast(0.85);
+		transform-origin: center;
+		transform: scale(1) translateZ(0);
+		transition: filter 200ms linear, transform 200ms linear;
+		border: 1px solid $secondary;
+
+		@include media-breakpoint-down(xl) {
+			background-size: 70%;
+		}
+
+		@include media-breakpoint-down(md) {
+			background-size: 60%;
+		}
+	}
+
+	.card:hover .card__background {
+		transform: scale(1.05) translateZ(0);
+		border: 1px solid $primary;
+	}
+
+	.card-grid:hover > .card:not(:hover) .card__background {
+		filter: brightness(.75) saturate(0) contrast(2.2) blur(0px);
+	}
+
+	.card-grid:hover > .card:not(:hover) .card__heading,
+	.card-grid:hover > .card:not(:hover) .card__badge,
+	.card-grid:hover > .card:not(:hover) .card__category {
+		color: $dark;
+	}
+
+	.card__content {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding: var(--spacing-l);
+		color: $white;
+	}
+
+	.card__badge {
+		position: absolute;
+		top: $spacer;
+		right: $spacer;
+	}
+
+	.card__heading {
+		color: $primary;
+	}
+
+	.card__category {
+		display: flex;
+		justify-content: space-between;
+		color: $secondary;
+	}
+}

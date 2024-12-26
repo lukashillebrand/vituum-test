@@ -1,0 +1,83 @@
+// Job List Group
+
+.job-list-group {
+	width: 100%;
+}
+
+.job-list-group-radio .form-check-input {
+	border-radius: $border-radius-pill;
+}
+
+.form-check-input:checked + .form-checked-content {
+	opacity: .5;
+}
+
+.form-check-input-placeholder {
+	border-style: dashed;
+}
+
+[contenteditable]:focus {
+	outline: 0;
+}
+
+.job-list-group-checkable .job-list-group-item {
+	cursor: pointer;
+}
+
+.job-list-group-item-check {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.job-list-group-item-check:hover + .job-list-group-item {
+	background-color: var(--bs-secondary-bg);
+}
+
+.job-list-group-item-check:checked + .job-list-group-item {
+	background-color: $light;
+	border-color: $primary;
+	color: $black;
+}
+
+.job-list-group-item-check[disabled] + .job-list-group-item,
+.job-list-group-item-check:disabled + .job-list-group-item {
+	pointer-events: none;
+	filter: none;
+	opacity: .5;
+}
+
+.job-list-group-radio .job-list-group-item {
+	cursor: pointer;
+	border: 3px solid $tertiary;
+	border-radius: .5rem;
+}
+
+.job-list-group-radio .form-check-input {
+	z-index: 2;
+	margin-top: -.5em;
+}
+
+.job-list-group-radio .job-list-group-item:hover,
+.job-list-group-radio .job-list-group-item:focus {
+	background-color: $white;
+	border-color: $success-border-subtle;
+}
+
+.job-list-group-radio .form-check-input:checked + .job-list-group-item {
+	background-color: $success-bg-subtle;
+	border-color: $success-border-subtle;
+	box-shadow: $box-shadow;
+}
+
+.job-list-group-radio .form-check-input[disabled] + .job-list-group-item,
+.job-list-group-radio .form-check-input:disabled + .job-list-group-item {
+	pointer-events: none;
+	filter: none;
+	opacity: .5;
+}
+
+.form-check-input:checked {
+	background-color: $success;
+	border-color: $success;
+	box-shadow: $box-shadow-inset;
+}

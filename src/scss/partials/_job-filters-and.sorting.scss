@@ -1,0 +1,11 @@
+// Job filters and sorting
+
+.job-filters-and-sorting {
+    top: 100px;
+    z-index: 500;
+    border-radius: $border-radius-xl;
+
+    @include media-breakpoint-up(md) {
+        border-radius: $border-radius-2xl;
+    }
+}

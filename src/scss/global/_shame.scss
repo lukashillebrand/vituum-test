@@ -1,0 +1,23 @@
+// Shame
+
+.lead,
+.btn-lg {
+	@include media-breakpoint-down(md) {
+		font-size: 1rem;
+	}
+}
+
+.modal-header,
+.modal-footer {
+	border: 0;
+}
+
+// Remove argin on lists
+.list-group {
+	margin-inline: 0;
+}
+
+// When ffilter list items is not known
+.offcanvas.offcanvas-top {
+	height: max-content;
+}

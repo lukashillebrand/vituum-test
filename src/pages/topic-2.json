@@ -1,0 +1,28 @@
+{
+  "title": "Thema Name 2",
+  "text": "Text 22",
+  "subtopics": true,
+	"topics": [
+		{
+			"id": 2,
+			"name": "Lernen und Bildung",
+			"text": "",
+			"icon": "users",
+			"url": "topic-2",
+			"subtopics": [
+				{
+					"name":"22 Arbeit finden in Südtirol",
+					"text": "",
+					"icon": "",
+					"url": "topic-2-1"
+				},
+				{
+					"name":"22 Arbeit finden in Südtirol für Menschen mit Behinderungen",
+					"text": "",
+					"icon": "",
+					"url": "topic-2-2"
+				}
+			]
+		}		
+	]  
+}

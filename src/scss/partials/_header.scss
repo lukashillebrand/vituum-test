@@ -1,0 +1,18 @@
+// Header
+.header {
+    &__text {
+        @include media-breakpoint-up(md) {
+            font-size: $h5-font-size;
+        }
+    }
+    
+    &__languages {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+        @include media-breakpoint-down(lg) {
+            align-items: flex-start;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+// Feature
+
+.feature {
+    @include media-breakpoint-down(md) {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: $spacer;
+    }
+
+    &__icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    &__icon--small {
+        width: 60px;
+        height: 60px;
+    }
+}
